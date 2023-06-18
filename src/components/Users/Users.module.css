@@ -1,0 +1,15 @@
+
+
+.selectedPage{
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+    padding: 3px 5px;
+    margin-right: 10px;
+}
+
+.container{
+    padding: 15px
+}

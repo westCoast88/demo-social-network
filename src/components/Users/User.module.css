@@ -1,0 +1,29 @@
+.icon{
+    max-width: 50px;
+    max-height: 50px;
+    margin-bottom: 7px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: rgba(240, 248, 255, 0.692);
+    padding: 7px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.profilePrev{
+    min-width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.followBtn{
+    margin: 0;
+}
+
+.profileInfo{}

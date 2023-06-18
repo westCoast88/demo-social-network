@@ -1,0 +1,52 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    padding: 15px;
+}
+
+.dialogItems {
+    padding: 5px;
+}
+
+.dialogItems .active{
+    color: yellowgreen;
+}
+
+.dialog{
+    cursor: pointer;
+}
+
+.messages {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.messagesContainer{
+    width: 100%;
+}
+
+.messagesContainer > *{
+    width: 100%;
+}
+
+.inputMessage{
+    width: 65%;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.newMessageForm{
+    width: 100%;
+}
+
+.btnSubmit{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    /* background-color: #474958; */
+    background-color: #383b50;
+    color: white;
+    font-size: 17px;
+}

@@ -1,0 +1,47 @@
+
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(240, 248, 255, 0.692);
+  border-radius: 10px;
+  margin-bottom: 15px;
+  color: #4d4e53;
+}
+
+.item img{
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.likesBtn{
+  padding: 3px;
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+
+.likesBtn > img{
+  max-width: 37px;
+  max-height: 30px;
+  filter: grayscale(100%);
+}
+
+.likesCount{
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 7px;
+}
+
+.likes{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.name{
+  margin-bottom: 5px;
+}

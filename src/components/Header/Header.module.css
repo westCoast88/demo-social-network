@@ -1,0 +1,43 @@
+
+.header {
+    position: relative;
+    grid-area: h;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(103, 116, 136);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+}
+
+header img {
+    max-width: 40px;
+    width: 100%;
+}
+
+.loginBlock{
+    float: right;
+}
+
+.loginBlock a{
+    text-decoration: none;
+    color: white;
+}
+
+.logoutBtn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: #383b50;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.link{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.623);
+}

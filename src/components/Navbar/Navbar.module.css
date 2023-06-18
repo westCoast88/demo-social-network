@@ -1,0 +1,30 @@
+.nav {
+  grid-area: n;
+  background-color: rgba(148, 173, 171, 0.658);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 800px;
+}
+
+.item{
+  margin-bottom: 11px;
+}
+
+.item a{
+  color: #474958;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  font-size: 23px;
+  font-weight: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.item a.active{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
