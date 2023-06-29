@@ -4,7 +4,6 @@ import userPhoto from '../../assets/img/userPhoto.png';
 import { NavLink } from "react-router-dom";
 
 let User = ({ user, followingInProgress, unfollow, follow }) => {
-    console.log(user)
     return (
         <div className={styles.container}>
             <div className={styles.profilePrev}>
